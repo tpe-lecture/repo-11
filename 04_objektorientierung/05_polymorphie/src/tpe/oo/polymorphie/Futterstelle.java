@@ -3,12 +3,16 @@ package tpe.oo.polymorphie;
 import tpe.oo.polymorphie.tiere.Affe;
 import tpe.oo.polymorphie.tiere.Giraffe;
 import tpe.oo.polymorphie.tiere.Gorilla;
+import tpe.oo.polymorphie.tiere.ZooTier;
 
 /**
  * Fütterung der Tiere.
  */
 public class Futterstelle {
-
+   
+    public void gibFutter(ZooTier tiere) {
+        tiere.fuettern();
+    }
     /**
      * Füttert den Affen.
      * 
@@ -35,4 +39,6 @@ public class Futterstelle {
     public void gibFutter(Giraffe giraffe) {
         giraffe.fuettern();
     }
+    
+    
 }
