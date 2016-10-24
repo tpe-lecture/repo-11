@@ -9,6 +9,13 @@ public class Wesen {
     private String name;
     
     /**
+     * Default konstruktor 
+     */
+    public Wesen(){
+        
+    }
+    
+    /**
      * Legt eine neue Spielfigur an.
      * 
      * @param name Name der Figur.
