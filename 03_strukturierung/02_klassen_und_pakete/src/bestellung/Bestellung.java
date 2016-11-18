@@ -1,3 +1,6 @@
+package bestellung;
+import Lieferung.Kunde;
+
 /**
  * Eine Bestellung.
  */
